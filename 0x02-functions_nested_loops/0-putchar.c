@@ -18,3 +18,14 @@ void print_putchar(void)
 	_putchar('\n');
 
 }
+
+/**
+ *  main - entry point of program
+ *
+ *  Return: 0 if successful
+ */
+int main(void)
+{
+	print_putchar();
+	return (0);
+}
