@@ -4,12 +4,12 @@
  *print_rev - Prints a string in reverse.
  *@s: The string to be printed.
  */
-void print_rev(char *mystr)
+void print_rev(char *s)
 {
 	int length = 0;
 	int index = 0;
 
-	while (mystr[index++])
+	while (s[index++])
 	{
 		length++;
 	}
