@@ -6,8 +6,8 @@
  */
 void print_rev(char *mystr)
 {
-	int length = 0;
-	int index = 0;
+	size_t length = 0;
+	size_t index = 0;
 
 	while (mystr[index++])
 	{
