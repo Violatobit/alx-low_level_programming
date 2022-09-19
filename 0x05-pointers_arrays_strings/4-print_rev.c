@@ -13,7 +13,7 @@ void print_rev(char *mystr)
 	{
 		length++;
 	}
-	for (index = length - 1; index > 0; index--)
+	for (index = length - 1; index >= 0; index--)
 	{
 
 		_putchar(mystr[index]);
