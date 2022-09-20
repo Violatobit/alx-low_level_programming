@@ -2,18 +2,19 @@
 
 /**
  *puts2 - print character of string starting with first character
- *@str: The string with characters
+ *@mystr: The string with characters
  */
-void puts2(char *str)
+void puts2(char *mystr)
 {
 	int index = 0, len = 0;
 
-	while (str[index++])
-		len++;
-
+	while (mystr[index++])
 	{
-		for (index = 0; index <= len; index += 2)
-			_putchar(str[index]);
+		len++;
+	}
+	for (index = 0; index <= len; index += 2)
+	{
+		_putchar(mystr[index]);
 	}
 
 	_putchar('\n');
